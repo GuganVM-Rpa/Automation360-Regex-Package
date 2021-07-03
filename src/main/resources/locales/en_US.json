@@ -1,0 +1,11 @@
+{
+	"label": "Regex",
+	"description": "Extract string using Regex.",
+	"Extract.label": "Extract",
+	"Extract.description": "Extract Specific text from the string using Regex",
+	"Extract.node_label": "Extract {{Regex}} from the input string",
+	"Extract.return_label": "Assign the output to variable",
+	"Extract.return_label_description": "Extracted string will be assigned to this string variable",
+	"Extract.Input.label": "Enter the string",
+	"Extract.Regex.label": "Enter the Regex"
+}

@@ -1,0 +1,47 @@
+{
+    "name": "A2019Regex",
+    "label": "[[label]]",
+    "description": "[[description]]",
+    "group": "com.automationanywhere",
+    "artifactName": "A2019Regex",
+    "packageVersion": "2.0.9-20210630-170448",
+    "codeVersion": "2.0.9-20210630-170448",
+    "author": "",
+    "commands": [
+        {
+            "name": "Extract",
+            "label": "[[Extract.label]]",
+            "description": "[[Extract.description]]",
+            "nodeLabel": "[[Extract.node_label]]",
+            "mainClass": "com.automationanywhere.botcommands.ExtractCommand",
+            "icon": "pkg.svg",
+            "returnType": "STRING",
+            "returnSubtype": "UNDEFINED",
+            "returnLabel": "[[Extract.return_label]]",
+            "returnRequired": true,
+            "returnDescription": "[[Extract.return_label_description]]",
+            "attributes": [
+                {
+                    "name": "Input",
+                    "label": "[[Extract.Input.label]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Regex",
+                    "label": "[[Extract.Regex.label]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
